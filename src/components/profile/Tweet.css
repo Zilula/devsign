@@ -26,6 +26,10 @@
     p {
         margin: .5em;
     }
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
 }
 
 
