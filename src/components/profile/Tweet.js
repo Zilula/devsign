@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styles from './Tweet.css';
 
 export default function Tweet({ tweet }) {
-    console.log(tweet.user.nickname);
     return (
         <div >
             <li className={styles.li}>
