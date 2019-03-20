@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 import styles from './Tweet.css';
 
 export default function Tweet({ tweet }) {
+    console.log(tweet.user.nickname);
     return (
         <div >
             <li className={styles.li}>
                 <section id={styles.count}>
                     <p>
-                        {tweet.handle}
+                        {tweet.user.nickname}
                     </p>
-                    <img src={tweet.img}/>
+                    <img src={tweet.user.picture}/>
                     <p>
                     Likes: {tweet.likes}
                     </p>
